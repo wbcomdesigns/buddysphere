@@ -1,0 +1,38 @@
+{
+	"name": "buddysphere",
+	"version": "1.0.0",
+	"description": "Discover BuddySphere, the latest innovation in BuddyPress themes, expertly crafted for the modern WordPress era. Embracing the full potential of WordPress block themes, BuddySphere offers unparalleled flexibility and ease of customization. With its intuitive block-based design, you can effortlessly tailor your community site to match your vision. But that's not all - BuddySphere comes with dedicated support for WooCommerce, making it a perfect choice for building vibrant online communities that are also e-commerce ready. Whether you're setting up a niche social network, a collaborative platform, or a bustling online marketplace, BuddySphere bridges the gap between community engagement and commercial functionality. Elevate your BuddyPress experience with BuddySphere - where community meets commerce seamlessly.",
+	"author": "wbcomdesigns",
+	"license": "GPL-2.0-or-later",
+	"keywords": [
+		"WordPress",
+		"Theme"
+	],
+	"homepage": "https://wbcomdesigns.com/",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/carolinan/fullsiteediting"
+	},
+	"engines": {
+		"node": ">=14.15.0",
+		"npm": ">=6.14.8 <7"
+	},
+	"devDependencies": {
+		"@babel/core": "^7.23.3",
+		"@wordpress/babel-preset-default": "^7.29.0",
+		"@wordpress/scripts": "^26.16.0",
+		"cssnano": "^6.0.1",
+		"gulp": "^4.0.2",
+		"gulp-clean": "^0.4.0",
+		"gulp-cli": "^2.3.0",
+		"gulp-concat-css": "^3.1.0",
+		"gulp-postcss": "^9.0.1",
+		"gulp-rename": "^2.0.0",
+		"postcss": "^8.4.31",
+		"postcss-cli": "^10.1.0"
+	},
+	"scripts": {
+		"lint:css": "wp-scripts lint-style",
+		"lint:js": "wp-scripts lint-js"
+	}
+}

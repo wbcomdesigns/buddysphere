@@ -1,0 +1,30 @@
+{
+	"name": "buddysphere/buddysphere",
+	"type": "package",
+	"description": "Discover BuddySphere, the latest innovation in BuddyPress themes, expertly crafted for the modern WordPress era. Embracing the full potential of WordPress block themes, BuddySphere offers unparalleled flexibility and ease of customization. With its intuitive block-based design, you can effortlessly tailor your community site to match your vision. But that's not all - BuddySphere comes with dedicated support for WooCommerce, making it a perfect choice for building vibrant online communities that are also e-commerce ready. Whether you're setting up a niche social network, a collaborative platform, or a bustling online marketplace, BuddySphere bridges the gap between community engagement and commercial functionality. Elevate your BuddyPress experience with BuddySphere - where community meets commerce seamlessly.",
+	"keywords": [
+		"WordPress",
+		"Themes"
+	],
+	"homepage": "https://wbcomdesigns.com/",
+	"license": "GPL-2.0-or-later",
+	"require": {
+		"php": ">=7.4"
+	},
+	"require-dev": {
+		"szepeviktor/phpstan-wordpress": "^1.3.0",
+		"dealerdirect/phpcodesniffer-composer-installer": "^1.0.0",
+		"wp-coding-standards/wpcs": "*",
+		"wptrt/wpthemereview": "^0.2.1"
+	},
+	"scripts": {
+		"analyze": "@php ./vendor/bin/phpstan analyze",
+		"standards:check": "@php ./vendor/squizlabs/php_codesniffer/bin/phpcs",
+		"standards:fix": "@php ./vendor/squizlabs/php_codesniffer/bin/phpcbf"
+	},
+	"config": {
+		"allow-plugins": {
+			"dealerdirect/phpcodesniffer-composer-installer": true
+		}
+	}
+}
